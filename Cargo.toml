@@ -1,0 +1,17 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["cp949"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "bin2"
+path = "src/vin/bin2.rs"
+
+[[bin]]
+name = "bin3"
+path = "src/bin3.rs"
